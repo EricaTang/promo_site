@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kanit:wght@500&family=Montserrat+Subrayada&family=Rubik+Mono+One&display=swap');
+
+ * {
+ 	box-sizing: border-box;
+ }
+
+body, html {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-color: #000;
+	color: #000;
+	font-family: 'Rubik Mono One', sans-serif;
+}
+
+b {
+	color: #fff;
+	position: absolute;
+	margin: auto;
+	opacity: 0.3;
+	font-family: 'Anton', sans-serif;
+	font-size: 550px;
+	letter-spacing: 20px;
+	text-align: center;
+	text-shadow: #fff 5px 0 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+img {
+	position: relative;
+	opacity: 0.9;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+h1 {
+	position: absolute;
+	font-family: 'Rubik Mono One', sans-serif;
+	font-size: 60px;
+	color: #f2e530;
+	top: 480px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	text-shadow: #6691bd 5px 0;
+}
+
+h2 {
+	position: absolute;
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-size: 25px;
+	color: #fff;
+	top: 720px;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+div {
+	position: relative;
+	top: 50px;
+}
+
+.split {
+	text-decoration: underline;
+	display: block;
+	margin-left: 400px;
+}
+
+.split span {
+	display:block;
+	float:right;
+	width:50%;
+	margin-right:10px;
+}
+
+.layout {
+	opacity: 0.45;
+	font-family: 'Kanit', sans-serif;
+	padding-left: 300px;
+	padding-right: 300px;
+	text-align: center;
+	font-size: 40px;
+	padding-bottom: 30px;
+}
+
+.highlight {
+	background-color: #749eca;
+	font-size: 20px;
+}
+
+#specialText {
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-size: 25px;
+	font-style: oblique;
+	font-weight: bolder;
+	color: #f2e530;
+	padding-top: 40px;
+	padding-bottom: 5px;
+	text-align: center;
+}
